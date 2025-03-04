@@ -1,4 +1,4 @@
-# pdf-extraction
+# PDF-extraction
 
   - For documents like PDFs & images, formatting information is visual.
   - Document image analysis (DIA) to extract formatting information and text
@@ -9,3 +9,8 @@
       - DONUT - Document Understanding Transformer. Implementation [here](https://github.com/clovaai/donut)
       - No OCR required, Image input is directly converted to text. Can train the model to output a valid JSON string.
       - model is generative, prone to hallucination, computationally expensive.
+
+# Implementations
+  - [marker](https://github.com/VikParuchuri/marker)
+  - [unstructured](https://github.com/Unstructured-IO/unstructured)
+    
